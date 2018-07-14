@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "db22e426c212d864327efaca6b2b0dbf",
@@ -317,16 +317,16 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.5.1",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053"
+                "reference": "f4edc2581617431aea50430749db55cc3fc031b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/62785ae604c8d69725d693eb370e1d67e94c4053",
-                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/f4edc2581617431aea50430749db55cc3fc031b3",
+                "reference": "f4edc2581617431aea50430749db55cc3fc031b3",
                 "shasum": ""
             },
             "require": {
@@ -359,20 +359,20 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25T12:08:31+00:00"
+            "time": "2018-06-13T15:59:06+00:00"
         },
         {
             "name": "react/promise-stream",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise-stream.git",
-                "reference": "77ca2a233db59d671864c88e2b716d875cfbeb1f"
+                "reference": "00e269d611e9c9a29356aef64c07f7e513e73dc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise-stream/zipball/77ca2a233db59d671864c88e2b716d875cfbeb1f",
-                "reference": "77ca2a233db59d671864c88e2b716d875cfbeb1f",
+                "url": "https://api.github.com/repos/reactphp/promise-stream/zipball/00e269d611e9c9a29356aef64c07f7e513e73dc9",
+                "reference": "00e269d611e9c9a29356aef64c07f7e513e73dc9",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +382,7 @@
             },
             "require-dev": {
                 "clue/block-react": "^1.0",
-                "phpunit/phpunit": "^4.8",
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35",
                 "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
                 "react/promise-timer": "^1.0"
             },
@@ -415,7 +415,7 @@
                 "stream",
                 "unwrap"
             ],
-            "time": "2017-11-28T18:31:39+00:00"
+            "time": "2017-12-22T12:02:05+00:00"
         },
         {
             "name": "react/stream",
@@ -1315,6 +1315,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause|MIT"
+            ],
             "authors": [
                 {
                     "name": "Kore Nordmann",
