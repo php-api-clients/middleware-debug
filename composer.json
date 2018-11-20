@@ -12,7 +12,7 @@
         "php": "^7.0",
         "api-clients/middleware": "^4.0",
         "react/promise-stream": "^1.1",
-        "react/stream": "^0.7.5",
+        "react/stream": "^1.0.0",
         "ringcentral/psr7": "^1.2"
     },
     "require-dev": {
